@@ -18,6 +18,8 @@ int main()
 }
     float sigma;
 void stat(const double a[],int n ,double b[]) {
+    b[2] = a[0];
+    b[3] = a[0];
     int i = 0;
     for( i ;i<n;i++){
         b[0] += a[i]/n;
